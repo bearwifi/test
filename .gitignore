@@ -1,0 +1,41 @@
+# Example .gitignore file
+# This demonstrates what files to exclude from version control
+
+# Dependencies
+node_modules/
+vendor/
+*.pyc
+__pycache__/
+
+# Build outputs
+dist/
+build/
+*.exe
+*.o
+*.out
+*.class
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS generated files
+Thumbs.db
